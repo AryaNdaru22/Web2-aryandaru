@@ -1,0 +1,135 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Company</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
+    <style>
+        body {
+            background-color: #1a202c;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+        nav a {
+            color: #cbd5e0;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: white;
+        }
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+        .main-content h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .main-content button {
+            background-color: white;
+            color: #1a202c;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 9999px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 2rem;
+        }
+        .stats div {
+            text-align: center;
+        }
+        .stats div span {
+            display: block;
+        }
+        .stats div .number {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .image-container {
+            margin-top: 2rem;
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 500px;
+        }
+        @media (min-width: 768px) {
+            .main-content {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .main-content h1 {
+                text-align: left;
+                font-size: 3rem;
+            }
+            .stats {
+                justify-content: flex-start;
+            }
+            .stats div {
+                margin-right: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://e7.pngegg.com/pngimages/98/371/png-clipart-cartoon-furniture-area-illustration-house-city-furniture-building.png" alt="Company Logo" style="width: 30px; height: 30px; border-radius: 50%; background-color: white; padding: 5px;">
+            <span style="font-size: 1.25rem; font-weight: bold;">IT.CREATIVE</span>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Service</a>
+            <a href="#">About Us</a>
+            <a href="#">Shop</a>
+        </nav>
+        <div class="contact">
+            <span style="margin-right: 1rem;"><i class="fas fa-globe"></i> English</span>
+            <a href="#" style="color: white;">Contact us</a>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="text-content">
+            <h1>Information technology does not make people lazy, but rather makes works always abundant without limits.</h1>
+            <button>Contact Now!</button>
+            <div class="stats">
+                <div>
+                    <span class="number">240</span>
+                    <span>Satisfied Clients</span>
+                </div>
+                <div>
+                    <span class="number">2K16</span>
+                    <span>Founded</span>
+                </div>
+                <div>
+                    <span class="number">60+</span>
+                    <span>Successful Projects</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="image-container">
+            <img src="https://storage.googleapis.com/a1aa/image/Rb3VsenPZC31Afxyv-KMAvg-OJg3v6B2KAD09w0SbVo.jpg" alt="Abstract building design">
+        </div>
+        
+    </main>
+    <footer>
+                ARYA PRAMUDIA SURYA NDARU - 243307034
+              </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</body>
+</html>
